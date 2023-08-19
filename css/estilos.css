@@ -1,0 +1,139 @@
+/* Resetear CSS */
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+
+/* cambiar la config de raiz, no es necesario al 100% */
+
+/* Por defecto es 16 px, lo cambiamos a 10px */
+html{
+    font-size: 62.5%;  /* con esto vale, 10 px */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../multimedia/volumen-resumen-grafico-loneliness-escritorio.jpg);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px 10px ;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px; 
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.Sesion {
+    display: flex;
+    text-align: right;
+    width: 25px;
+    height: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+iframe {
+    width: 500px;
+    height: 250px;
+    border: none;
+}
+
+
+.slogan {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px; 
+    margin-top: 10px; 
+}
+
+.borde {
+    border: 2px solid white; 
+    padding: 20px; 
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 30px 0; 
+}
+
+.pie {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.pielogo {
+    width: 20px;
+    padding-left: 40%;
+}
+
+.pielinks ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+.pielinks li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+.pielinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pieredes a {
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.pieredes img {
+    width: 30px;
+}
