@@ -176,7 +176,6 @@ label {
     max-width: 960px;
     margin: 0 auto;
     padding: 80px;
-    flex: 1;
 }
 
 .fila {
@@ -238,7 +237,55 @@ label {
     background-color: #0056b3;
 }
 
-@media (max-width: 767px) {
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.banner .banner-content .banner-title .banner-description .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.banner .banner-content .banner-title .banner-description .btn:hover {
+    background-color: #e65100;
+}
+
+
+@media (max-width: 480px) {
 
     nav {
         display: flex;
@@ -248,11 +295,4 @@ label {
         font-size: 20px;
     }
 
-    .container {
-        flex-direction: column;
-    }
-
-    .card {
-        margin: 10px 0;
-    }
 }
