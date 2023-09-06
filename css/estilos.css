@@ -1,299 +1,299 @@
 /* Resetear CSS */
 *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-
-
-
-/* cambiar la config de raiz, no es necesario al 100% */
-
-/* Por defecto es 16 px, lo cambiamos a 10px */
-html{
-    font-size: 62.5%;  /* con esto vale, 10 px */
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-image: url(../multimedia/volumen-resumen-grafico-loneliness-escritorio.jpg);
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5px 10px ;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.logo {
-    color: white;
-    font-size: 30px; 
-}
-
-ul li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.sesion {
-    display: flex;
-    text-align: right;
-    width: 25px;
-    height: 20px;
-}
-
-.principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    color: white;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    
-}
-
-iframe {
-    width: 500px;
-    height: 250px;
-    border: none;
-}
-
-
-.slogan {
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px; 
-    margin-top: 10px; 
-}
-
-.borde {
-    border: 2px solid white; 
-    padding: 20px; 
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-
-footer {
-    background-color: #333; 
-    color: #fff; 
-    text-align: center;
-    padding: 30px 0; 
-}
-
-.pie {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center; 
-}
-
-.pie-logo {
-    width: 20px;
-    padding-left: 40%;
-}
-
-.pie-links ul {
-    list-style: none;
-    padding: 0;
-    display: inline-block; 
-    margin-right: 20px;
-}
-
-.pie-links li {
-    display: inline-block; 
-    margin-right: 20px;
-}
-
-.pie-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.pie-redes a {
-    display: inline-block; 
-    margin-right: 10px;
-}
-
-.pie-redes img {
-    width: 30px;
-}
-
-.registro {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.boton {
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid lightgrey;
-        border-radius: 3px;
-}
-
-.registrarse {
-        text-align: center;
-        margin-bottom: 20px;
-        color: black;
-}
-
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 80px;
-}
-
-.fila {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    width: 250px; 
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card-header {
-    position: relative;
-    overflow: hidden;
-}
-
-.card-header img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s;
-}
-
-.card-header:hover img {
-    transform: scale(1.1);
-}
-
-.card-body {
-    padding: 20px;
-}
-
-.card-body h2 {
     margin: 0;
-    font-size: 1.8rem;
-    color: #333;
-}
-
-.card-body p {
-    margin: 10px 0;
-    color: #666;
-    font-size: 1.2rem;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-
-.banner {
-
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.banner-content {
-    max-width: 600px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-
-.banner-title {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.banner-description {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
-
-.banner .banner-content .banner-title .banner-description .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.banner .banner-content .banner-title .banner-description .btn:hover {
-    background-color: #e65100;
-}
-
-
-@media (max-width: 480px) {
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 25px;
-        font-size: 20px;
-    }
-
-}
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ /* cambiar la config de raiz, no es necesario al 100% */
+ 
+ /* Por defecto es 16 px, lo cambiamos a 10px */
+ html{
+     font-size: 62.5%;  /* con esto vale, 10 px */
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     background-image: url(../multimedia/volumen-resumen-grafico-loneliness-escritorio.jpg);
+ }
+ 
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 20px;
+ }
+ 
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 5px 10px ;
+     font-weight: bold;
+     border-radius: 10px;
+ }
+ 
+ .logo {
+     color: white;
+     font-size: 30px; 
+ }
+ 
+ ul li {
+     display: inline-block;
+     padding: 0px 20px;
+ }
+ 
+ a {
+     color: white;
+     text-decoration: none;
+     font-size: 13px;
+ }
+ 
+ .sesion {
+     display: flex;
+     text-align: right;
+     width: 25px;
+     height: 20px;
+ }
+ 
+ .principal {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 50px;
+     color: white;
+ }
+ 
+ .video {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     
+ }
+ 
+ iframe {
+     width: 500px;
+     height: 250px;
+     border: none;
+ }
+ 
+ 
+ .slogan {
+     color: white;
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 20px; 
+     margin-top: 10px; 
+ }
+ 
+ .borde {
+     border: 2px solid white; 
+     padding: 20px; 
+     margin-top: 20px;
+     border-radius: 20px;
+ }
+ 
+ 
+ footer {
+     background-color: #333; 
+     color: #fff; 
+     text-align: center;
+     padding: 30px 0; 
+ }
+ 
+ .pie {
+     max-width: 1200px;
+     margin: 0 auto;
+     text-align: center; 
+ }
+ 
+ .pie-logo {
+     width: 20px;
+     padding-left: 40%;
+ }
+ 
+ .pie-links ul {
+     list-style: none;
+     padding: 0;
+     display: inline-block; 
+     margin-right: 20px;
+ }
+ 
+ .pie-links li {
+     display: inline-block; 
+     margin-right: 20px;
+ }
+ 
+ .pie-links a {
+     color: #fff;
+     text-decoration: none;
+ }
+ 
+ .pie-redes a {
+     display: inline-block; 
+     margin-right: 10px;
+ }
+ 
+ .pie-redes img {
+     width: 30px;
+ }
+ 
+ .registro {
+     max-width: 400px;
+     margin: 50px auto;
+     padding: 20px;
+     background-color: white;
+     border: 1px solid lightgrey;
+     border-radius: 5px;
+ }
+ 
+ form {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ label {
+     font-weight: bold;
+     margin-bottom: 5px;
+ }
+ 
+ .boton {
+         padding: 10px;
+         margin-bottom: 10px;
+         border: 1px solid lightgrey;
+         border-radius: 3px;
+ }
+ 
+ .registrarse {
+         text-align: center;
+         margin-bottom: 20px;
+         color: black;
+ }
+ 
+ 
+ .container {
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 80px;
+ }
+ 
+ .fila {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .card {
+     width: 250px; 
+     border: 1px solid #e0e0e0;
+     border-radius: 10px;
+     overflow: hidden;
+     background-color: #fff;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .card-header {
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .card-header img {
+     width: 100%;
+     height: auto;
+     transition: transform 0.3s;
+ }
+ 
+ .card-header:hover img {
+     transform: scale(1.1);
+ }
+ 
+ .card-body {
+     padding: 20px;
+ }
+ 
+ .card-body h2 {
+     margin: 0;
+     font-size: 1.8rem;
+     color: #333;
+ }
+ 
+ .card-body p {
+     margin: 10px 0;
+     color: #666;
+     font-size: 1.2rem;
+ }
+ 
+ .btn {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #007BFF;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+ }
+ 
+ .btn:hover {
+     background-color: #0056b3;
+ }
+ 
+ 
+ .banner {
+ 
+     background-size: cover;
+     background-position: center;
+     height: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-align: center;
+     position: relative;
+ }
+ 
+ .banner-content {
+     max-width: 600px;
+     padding: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+ }
+ 
+ .banner-title {
+     font-size: 3rem;
+     margin-bottom: 10px;
+     letter-spacing: 2px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .banner-description {
+     font-size: 1.2rem;
+     margin-bottom: 20px;
+     line-height: 1.5;
+ }
+ 
+ .banner .banner-content .banner-title .banner-description .btn {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #ff6600;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s ease;
+ }
+ 
+ .banner .banner-content .banner-title .banner-description .btn:hover {
+     background-color: #e65100;
+ }
+ 
+ 
+ @media (max-width: 480px) {
+ 
+     nav {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         padding-bottom: 25px;
+         font-size: 20px;
+     }
+ 
+ }
