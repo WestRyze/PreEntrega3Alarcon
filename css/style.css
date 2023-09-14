@@ -1,3 +1,360 @@
+html {
+  font-size: 62.5%;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../multimedia/volumen-resumen-grafico-loneliness-escritorio.jpg);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #3185d2;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+header nav .logo {
+  color: white;
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+header nav .logo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav .logo ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+header nav .logo ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav .logo ul li a:hover {
+  color: rgba(230, 208, 41, 0.922);
+  transform: scale(1.05);
+}
+
+header nav .logo ul li a:hover .sesion {
+  display: flex;
+  text-align: right;
+  width: 25px;
+  height: 20px;
+  text-decoration: none;
+}
+
+header nav .logo ul li a:hover .sesion .registro {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+iframe {
+  width: 500px;
+  height: 250px;
+  border: none;
+}
+
+.slogan {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.borde {
+  border: 2px solid white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.boton {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.registrarse {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.card-header img:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.first {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.second {
+  margin: 10px 0;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner .banner-content {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.banner .banner-content .banner-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner .banner-content .banner-title .banner-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.banner .banner-content .banner-title .banner-description .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner .banner-content .banner-title .banner-description .btn:hover {
+  background-color: #e65100;
+}
+
+.conocenos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.col-izq,
+.col-der {
+  background: rgb(49, 81, 210);
+  background: linear-gradient(90deg, rgba(49, 81, 210, 0.5486987031) 0%, rgba(58, 187, 198, 0.2741888992) 50%, rgba(52, 122, 136, 0.5851132689) 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.col-izq:hover, .col-izq:hover,
+.col-der:hover,
+.col-der:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.sub-title {
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  max-width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pie-logo {
+  width: 15px;
+  padding-left: 40%;
+}
+
+.pie-links ul {
+  list-style: none;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.pie-links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.pie-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pie-redes a {
+  padding-top: 20px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.pie-redes a img {
+  width: 30px;
+}
+
+.letra-chica {
+  margin-right: 15px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+  .fila {
+    width: 100%;
+    display: block;
+    margin-right: 50px;
+  }
+  .col-md-4 {
+    padding: 10px 0px;
+  }
+  .pie-logo {
+    margin-right: 20px;
+  }
+  .conocenos {
+    flex-direction: column;
+  }
+  .col-der,
+  .col-izq {
+    width: 100%;
+  }
+} 
 
 /*# sourceMappingURL=style.css.map */

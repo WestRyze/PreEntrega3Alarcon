@@ -1,212 +1,213 @@
 .principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  color: white;
 }
 
 .video {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 iframe {
-    width: 500px;
-    height: 250px;
-    border: none;
+  width: 500px;
+  height: 250px;
+  border: none;
 }
 
-
 .slogan {
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px; 
-    margin-top: 10px; 
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .borde {
-    border: 2px solid white; 
-    padding: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
+  border: 2px solid white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    font-weight: bold;
-    margin-bottom: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .boton {
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid lightgrey;
-        border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
 }
 
 .registrarse {
-        text-align: center;
-        margin-bottom: 20px;
-        color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
 }
-
-
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 80px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px;
 }
 
 .fila {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
-    width: 250px; 
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card-header {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 
-    img {
-        width: 100%;
-        height: auto;
-        transition: transform 0.3s;
+  img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
 
-        &:hover {
-            transform: scale(1.1);
-        }
+    &:hover {
+      transform: scale(1.1);
     }
+  }
 }
 
 .card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
- .first {
-    font-weight: bold;
-    margin: 0;
-    font-size: 1.8rem;
-    color: #333;
+.first {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.8rem;
+  color: #333;
 }
 
 .second {
-    margin: 10px 0;
-    color: #666;
-    font-size: 1.2rem;
+  margin: 10px 0;
+  color: #666;
+  font-size: 1.2rem;
 }
 
 .btn {
-    display: inline-block;
-     padding: 10px 20px;
-     background-color: #007BFF;
-     color: white;
-     text-decoration: none;
-     border-radius: 5px;
-     transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 
-    &:hover {
-        background-color: #0056b3;
-
-    }
+  &:hover {
+    background-color: #0056b3;
+  }
 }
 
 .banner {
-    background-size: cover;
-     background-position: center;
-     height: 400px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     color: white;
-     text-align: center;
-     position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
 
-    .banner-content {
-        max-width: 600px;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
+  .banner-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 
-        .banner-title {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    .banner-title {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
-            .banner-description {
-                font-size: 1.2rem;
-                margin-bottom: 20px;
-                line-height: 1.5;
+      .banner-description {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
 
-                .btn {
-                    display: inline-block;
-                    padding: 10px 20px;
-                    background-color: #ff6600;
-                    color: white;
-                    text-decoration: none;
-                    border-radius: 5px;
-                    transition: background-color 0.3s ease;
+        .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #ff6600;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
 
-                    &:hover {
-                        background-color: #e65100;
-                    }
-                }
-            }
+          &:hover {
+            background-color: #e65100;
+          }
         }
+      }
     }
+  }
 }
 
 .conocenos {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
-    gap: 20px; 
- }
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
 
- .col-izq, .col-der {
-    background: rgb(49,81,210);
-    background: linear-gradient(90deg, rgba(49,81,210,0.5486987031140581) 0%, rgba(58,187,198,0.27418889919248945) 50%, rgba(52,122,136,0.5851132689403886) 100%);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+.col-izq,
+.col-der {
+  background: rgb(49, 81, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 81, 210, 0.5486987031140581) 0%,
+    rgba(58, 187, 198, 0.27418889919248945) 50%,
+    rgba(52, 122, 136, 0.5851132689403886) 100%
+  );
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
-    &:hover, &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  &:hover,
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+}
 
-    }
- }
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
 
- h2 {
-    font-size: 18px; 
-    margin-bottom: 10px;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px; 
-    font-weight: bold;
- }
-
- .sub-title {
-    line-height: 1.8;
-    font-size: 15px;
- }
+.sub-title {
+  line-height: 1.8;
+  font-size: 15px;
+}

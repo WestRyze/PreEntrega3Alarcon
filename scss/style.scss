@@ -1,2 +1,38 @@
-@import "./utils/variables"
+@import "./utils/variables";
+@import "./layout/global";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
 
+@media (max-width: 480px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .fila {
+    width: 100%;
+    display: block;
+    margin-right: 50px;
+  }
+
+  .col-md-4 {
+    padding: 10px 0px;
+  }
+
+  .pie-logo {
+    margin-right: 20px;
+  }
+
+  .conocenos {
+    flex-direction: column;
+  }
+
+  .col-der,
+  .col-izq {
+    width: 100%;
+  }
+}
