@@ -26,15 +26,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 5px 10px;
+  padding-top: 0.5rem 1rem;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .logo {
   color: white;
-  font-size: 35px;
-  margin-right: 20px;
+  font-size: 3.5rem;
+  margin-right: 2rem;
 }
 
 ul {
@@ -45,13 +45,13 @@ ul {
 
 ul li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 2rem;
 }
 
 ul li a {
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.7rem;
 }
 a:hover {
   color: rgba(230, 208, 41, 0.922);
@@ -61,8 +61,8 @@ a:hover {
 .sesion {
   display: flex;
   text-align: right;
-  width: 25px;
-  height: 20px;
+  width: 2.5rem;
+  height: 2rem;
   text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 5rem;
   color: white;
 }
 
@@ -81,52 +81,52 @@ a:hover {
 }
 
 iframe {
-  width: 500px;
-  height: 250px;
+  width: 50rem;
+  height: 25rem;
   border: none;
 }
 
 .slogan {
   color: white;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .borde {
   border: 2px solid white;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
 }
 
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 30px 0;
+  padding: 3rem 0;
   max-width: auto;
   margin: 0 auto;
   text-align: center;
 }
 
 .pie-logo {
-  width: 15px;
+  width: 1.5rem;
   padding-left: 40%;
 }
 
 .pie-links ul {
   list-style: none;
-  padding: 10px;
+  padding: 1rem;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 2rem;
   font-weight: bold;
 }
 
 .pie-links li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .pie-links a {
@@ -135,28 +135,28 @@ footer {
 }
 
 .pie-redes a {
-  padding-top: 20px;
+  padding-top: 2rem;
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 5rem;
 }
 
 .pie-redes img {
-  width: 30px;
+  width: 3rem;
 }
 
 .letra-chica {
-  margin-right: 15px;
-  padding-top: 20px;
-  font-size: 12px;
+  margin-right: 1.5rem;
+  padding-top: 2rem;
+  font-size: 1.2rem;
 }
 
 .registro {
-  max-width: 400px;
-  margin: 50px auto;
-  padding: 20px;
+  max-width: 40rem;
+  margin: 5rem auto;
+  padding: 2rem;
   background-color: white;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
+  border: 0.1rem solid lightgrey;
+  border-radius: 0.5rem;
 }
 
 form {
@@ -166,26 +166,26 @@ form {
 
 label {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .boton {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid lightgrey;
+  border-radius: 0.3rem;
 }
 
 .registrarse {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   color: black;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 96rem;
   margin: 0 auto;
-  padding: 80px;
+  padding: 8rem;
 }
 
 .fila {
@@ -194,12 +194,12 @@ label {
 }
 
 .card {
-  width: 250px;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
+  width: 25rem;
+  border: 0.1rem solid #e0e0e0;
+  border-radius: 1rem;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .card-header {
@@ -218,7 +218,7 @@ label {
 }
 
 .card-body {
-  padding: 20px;
+  padding: 2rem;
 }
 
 .first {
@@ -229,20 +229,20 @@ label {
 }
 
 .second {
-  margin: 10px 0;
+  margin: 1rem 0;
   color: #666;
   font-size: 1.2rem;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   background-color: #007bff;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: background-color 0.3s;
 }
 
@@ -253,7 +253,7 @@ label {
 .banner {
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 40rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,32 +263,32 @@ label {
 }
 
 .banner-content {
-  max-width: 600px;
-  padding: 20px;
+  max-width: 60rem;
+  padding: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .banner-title {
   font-size: 3rem;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
 }
 
 .banner-description {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   line-height: 1.5;
 }
 
 .banner .banner-content .banner-title .banner-description .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   background-color: #ff6600;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: background-color 0.3s ease;
 }
 
@@ -297,13 +297,13 @@ label {
 }
 
 .conocenos {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
-  padding: 40px;
+  padding: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .col-izq,
@@ -315,30 +315,30 @@ label {
     rgba(58, 187, 198, 0.27418889919248945) 50%,
     rgba(52, 122, 136, 0.5851132689403886) 100%
   );
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .col-izq:hover,
 .col-der:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
   color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
   font-weight: bold;
 }
 
 .sub-title {
   line-height: 1.8;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 480px) {
@@ -346,22 +346,22 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    padding-bottom: 25px;
-    font-size: 20px;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
   }
 
   .fila {
     width: 100%;
     display: block;
-    margin-right: 50px;
+    margin-right: 5rem;
   }
 
   .col-md-4 {
-    padding: 10px 0px;
+    padding: 1rem 0px;
   }
 
   .pie-logo {
-    margin-right: 20px;
+    margin-right: 2rem;
   }
 
   .conocenos {
