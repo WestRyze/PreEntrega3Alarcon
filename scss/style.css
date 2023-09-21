@@ -263,6 +263,57 @@ h2 {
   font-size: 15px;
 }
 
+.container-formulario {
+  max-width: 60rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 30rem;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+.container-formulario .titulo-pagina {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+.container-formulario .titulo-pagina .form-grupo {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.container-formulario .titulo-pagina .form-grupo .form-label {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=text],
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=email],
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=tel],
+.container-formulario .titulo-pagina .form-grupo .form-label textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.3rem;
+}
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=text] .btn-enviar,
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=email] .btn-enviar,
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=tel] .btn-enviar,
+.container-formulario .titulo-pagina .form-grupo .form-label textarea .btn-enviar {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=text] .btn-enviar:hover,
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=email] .btn-enviar:hover,
+.container-formulario .titulo-pagina .form-grupo .form-label input[type=tel] .btn-enviar:hover,
+.container-formulario .titulo-pagina .form-grupo .form-label textarea .btn-enviar:hover {
+  background-color: #0056b3;
+}
+
 footer {
   background-color: #333;
   color: #fff;
